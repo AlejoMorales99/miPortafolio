@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-md-12 text-center ">
+
+    <div class="container" >
+      <span class="text">PORTAFOLIO</span>
+      <p class="subtitulo text-secondary" >ALGUNOS DE MIS PROYECTOS WEB</p>
+      <p class="text-secondary" >
+        Esta es una muestra de algunos de mis trabajos como autodidacta, de este año 2023,
+        algunos estaran subidos a la web y otros dejare el codigo en gitHub,
+        haciendo click en alguna de ellos
+        te redicionara al proyecto en la web o a mi cuenta de gitHub.
+      </p>
+    </div>
+
+
+  </div>
+</div>
+
+<hr>
+
+
+
+
+<div class="  container pb-5 " >
+  <div class="row">
+    <div class="col-md-12">
+
+      <input class="form-control" placeholder="BUSCAR PROYECTO" type="search" name="search" [(ngModel)]="searchText" autocomplete="on" >
+    </div>
+  </div>
+
+
+  <div   class="row mt-5 text-center">
+    <h3>Este modulo solo es una prueba, aun esta en desarrollo</h3>
+    <div *ngFor="let proyecto of proyectos | filter:searchText" class="col-md-4">
+
+      <div class="card mt-3" >
+        <img src="{{ proyecto.img }}" height="220"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{ proyecto.titulo }}</h5>
+          <p class="card-title">{{ proyecto.descripcion }}</p>
+          <a class="btn colorBotonJuego  text-white">{{ proyecto.link }}</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+</div>
+
+

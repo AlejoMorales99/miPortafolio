@@ -1,0 +1,74 @@
+
+.centrarContenido{
+  margin-top: 15%;
+}
+
+
+.maquina {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-family: "Courier New";
+
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+.imagenLenta{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.maquinaBorder{
+  border-right: 0.15em solid #18bdec;
+}
+
+.agrandarElementos{
+  transition: 0.3s ease-in-out 0.1s;
+}
+
+.agrandarElementos:hover{
+  transform: scale(1.1);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+
+  }
+
+  to {
+    margin-left: 0%;
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .maquina {
+    font-size: 0.8rem;
+    white-space: normal;
+  }
+
+
+}
+
+
+
+
+
+

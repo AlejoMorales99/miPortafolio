@@ -1,0 +1,48 @@
+.colorFooter{
+  background-color: #141c3a;
+}
+
+.estiloBoton{
+  border-color: #5BE9B9;
+}
+
+.estiloBoton:hover{
+  background-color: #5BE9B9;
+  color: black!important ;
+}
+
+.centrarRedes{
+  margin-top: 14%;
+}
+
+.bajar{
+  margin-top: 10%;
+}
+
+.bajarFooter{
+  margin-top: 3%;
+}
+
+.mainFooter{
+  background-color: #6E07F3;
+}
+
+.agrandarIconos{
+  transition: 0.3s ease-in-out 0.1s;
+}
+
+.agrandarIconos:hover{
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 375px) {
+  .bajar {
+    margin-top: 70%;
+  }
+
+  .bajarFooter{
+    margin-top: 32%;
+  }
+
+}
