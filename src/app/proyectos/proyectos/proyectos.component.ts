@@ -13,7 +13,7 @@ export class ProyectosComponent implements OnInit {
 
   constructor() {
     this.proyectos = [
-      new modeloProyectos('../../../assets/imgs/luffy.avif', 'REGISTO DE CLIENTES', 'CRUD SENCILLO DE REGISTRAR CLIENTES (LARAVEL-ANGULAR) ', 'ir al proyecto'),
+      new modeloProyectos('../../../assets/imgs/CRUD.png', 'REGISTO DE CLIENTES', 'CRUD SENCILLO DE REGISTRAR CLIENTES (LARAVEL-ANGULAR) ', 'ir al proyecto'),
       new modeloProyectos('../../../assets/imgs/asta.jpg', 'LISTA DE TAREAS', 'LISTA PARA REGISTRAR TUS TAREAS IMPORTANTES (LARAVEL-ANGULAR) ', 'ir al proyecto'),
     ];
   }
