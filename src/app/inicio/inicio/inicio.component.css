@@ -58,13 +58,23 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
   .maquina {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     white-space: normal;
   }
 
 
+}
+
+
+
+
+@media screen and (min-width: 413px) {
+  .maquina {
+    font-size: 1.4rem;
+    white-space: normal;
+  }
 }
 
 
